@@ -1,0 +1,72 @@
+.header{
+    background-color: #8540f5;
+    color: #ffff;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header a {
+    color: #ffff;
+    padding-top: 1.5em;
+    font-size: large;
+}
+
+.container{
+    padding: 5px;
+    border: 2PX dotted black;
+    width: 20em;
+    height: 30em;
+    display: flex;
+    align-items: center;
+    margin-left: 9em;
+    margin-top: 2em;
+}
+.form-group{
+    row-gap: 2px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 2px;
+    align-items: ;
+    flex-direction: column;
+}
+.form-group h2{
+    color: #8540f5;
+    
+}
+
+
+#register{
+    background-color: #8540f5;
+    color: #ffff;
+    width: 7em;
+    height: 2.5em;
+    
+}
+
+#login{
+    background-color: #8540f5;
+    color: #ffff;
+    width: 7em;
+    height: 2.5em;
+    
+}
+
+.form-control{
+    width: 22em;
+    height: 4em;
+}
+
+@media only screen and (max-width: 425px) {
+    .container {
+        padding: 1px;
+        border: 2PX dotted darkblue;
+        width: 19EM;
+        height: 25em;
+        margin-left: 2em;
+        margin-top: 1em;
+    }
+    .form-control{
+        width: 22em;
+        height: 6vh;
+    }
+  }
